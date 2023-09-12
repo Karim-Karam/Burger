@@ -31,21 +31,21 @@ function DrawerAppBar(props) {
   const drawer = (
     <Box onClick={handleDrawerToggle} sx={{ textAlign: 'center' }}>
        <IconButton
-            color="warning"
+            // color="warning"
             aria-label="open drawer"
             edge="start"
             onClick={handleDrawerToggle}
-            sx={{ my: 2 }}
+            sx={{ my: 2 , color:"#E9AF05"  }}
             
           >
-            <LunchDiningIcon sx={{width:"2em", height:"2em"}} />
+            <LunchDiningIcon sx={{width:"2em", height:"2em" }} />
           </IconButton>
 
       <Divider />
       <List>
         {navItems.map((item) => (
           <ListItem key={item} disablePadding>
-            <ListItemButton sx={{ textAlign: 'center' }}>
+            <ListItemButton sx={{ textAlign: 'center' , color:"#E9AF05" }}>
               <ListItemText primary={item} />
             </ListItemButton>
           </ListItem>
@@ -62,38 +62,38 @@ function DrawerAppBar(props) {
       <AppBar component="nav" color='transparent' >
         <Toolbar  sx={{   justifyContent :{ xs: 'space-between' , sm: 'space-around'} }}>
         <IconButton
-            color="warning"
+            // color="warning"
             aria-label="open drawer"
             edge="start"
             onClick={handleDrawerToggle}
-            sx={{ display: { sm: 'none' } }}
+            sx={{ display: { sm: 'none' , color:"#E9AF05" } }}
           >
             <LunchDiningIcon sx={{width:"2em", height:"2em"}} />
           </IconButton>
           <IconButton
-            color="warning"
+            // color="warning"
             aria-label="open drawer"
             edge="end"
             onClick={handleDrawerToggle}
-            sx={{  display: { sm: 'none' } }}
+            sx={{  display: { sm: 'none' , color:"#E9AF05"  } }}
           >
             <MenuIcon sx={{width:"2em", height:"2em"}} />
           </IconButton>
 
 
           <IconButton
-            color="warning"
+            
             aria-label="open drawer"
             edge="start"
             onClick={handleDrawerToggle}
-            sx={{ flexGrow: 0,  display: { xs: 'none', sm: 'block' } }}
+            sx={{ flexGrow: 0,  display: { xs: 'none', sm: 'block' } , color:"#E9AF05" }}
             
           >
             <LunchDiningIcon sx={{width:"2em", height:"2em"}}/>
           </IconButton>
           <Box sx={{ display: { xs: 'none', sm: 'block' } }}>
             {navItems.map((item) => (
-              <Button key={item} sx={{ color: '#fff' }}>
+              <Button key={item} sx={{ color: '#E9AF05' }}>
                 {item}
               </Button>
             ))}
@@ -111,7 +111,8 @@ function DrawerAppBar(props) {
           }}
           sx={{
             display: { xs: 'block', sm: 'none' },
-            '& .MuiDrawer-paper': { boxSizing: 'border-box', width: drawerWidth },
+            '& .MuiDrawer-paper': { boxSizing: 'border-box', backgroundColor:"#002" , width: drawerWidth },
+            
           }}
         >
           {drawer}
