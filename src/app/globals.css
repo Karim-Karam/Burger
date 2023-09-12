@@ -1,3 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=ADLaM+Display&display=swap");
+
 body {
   background-color: #100115;
+  font-family: "ADLaM Display", cursive !important;
+}
+
+@media only screen and (max-width: 750px) {
+  .logo {
+    display: none;
+  }
+  .appbaritem {
+    display: none;
+  }
+  .toolbar {
+    justify-content: space-between;
+  }
+}
+@media only screen and (min-width: 750px) {
+  .logo2 {
+    display: none;
+  }
+  .menuicon {
+    display: none;
+  }
+  .toolbar {
+    justify-content: space-around;
+  }
+  .drawer {
+    display: none;
+  }
 }
