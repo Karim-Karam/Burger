@@ -1,5 +1,6 @@
 import './globals.css'
 import { Inter } from 'next/font/google'
+import { motion, AnimatePresence } from "framer-motion"
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -11,7 +12,17 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+      <AnimatePresence>
+      <motion.div
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        exit={{ opacity: 0 }}
+    >
+        {children}
+       </motion.div>
+        </AnimatePresence>
+        </body>
     </html>
   )
 }
