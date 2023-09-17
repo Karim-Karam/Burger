@@ -62,8 +62,12 @@ function DrawerAppBar(props) {
   return (
     <Box sx={{ display: "flex" }}>
       <CssBaseline />
-      <AppBar  component="nav" color="transparent">
-        <Toolbar  className="toolbar">
+      <AppBar
+        component="nav"
+        color="transparent"
+        style={{ backgroundColor: "#100115" }}
+      >
+        <Toolbar className="toolbar">
           <Image
             src="/favicon.ico"
             width={40}

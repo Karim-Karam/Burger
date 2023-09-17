@@ -3,7 +3,6 @@
 body {
   background-color: #100115;
   font-family: "ADLaM Display", cursive !important;
-  font-size: 40px;
 }
 
 @media only screen and (max-width: 750px) {
@@ -32,50 +31,86 @@ body {
   }
 }
 
-.order-div{
+.order-div {
   width: 100%;
   position: relative;
-    margin-top: 80px;
+  margin-top: 80px;
 }
-.twoburger-img-div{
+.twoburger-img-div {
   width: 75%;
   overflow: hidden;
 }
-.offer-img-div{
+.offer-img-div {
   width: 34%;
   position: absolute;
-  right: 15%;
-  top:5%
-  
+  right: 10%;
+  top: 5%;
 }
 
-.offer-text{
+.offer-text {
   position: relative;
   text-align: center;
 }
-.offer-text-cont{
+.offer-text-cont {
   position: absolute;
   align-items: center;
   width: 100%;
   text-align: center;
   color: aliceblue;
-   top: 30%;
-   padding-left: 26%;
-   padding-right: 20%;
-   line-height: 1;
-  
+  top: 30%;
+  padding-left: 26%;
+  padding-right: 20%;
+  line-height: 1;
 }
-.offer-title{
-  color: #E9AF05;
+.offer-title {
+  color: #e9af05;
   font-size: 2vw;
   text-transform: uppercase;
 }
-.dots{
+.dots {
   font-size: 1.8vw;
 }
-.under-dots{
+.under-dots {
   font-size: 1.1vw;
   line-height: 1;
   padding: 5px;
   padding-top: 10px;
+}
+
+.order-btn-div {
+  margin-top: 5vw;
+}
+.order-btn {
+  background-color: #e9af05;
+  font-weight: bold;
+  border-radius: 25px;
+  color: #000;
+  font-size: 1.1vw;
+  width: 10vw;
+}
+.order-btn:hover {
+  background-color: #e9af05;
+  color: #000;
+}
+.section-two-container {
+  padding-top: 5vw;
+  display: flex;
+  flex-direction: row;
+  height: 500px;
+}
+.firstdiv-section-two {
+  display: flex;
+  flex-direction: row;
+}
+.three-div-container {
+  display: flex;
+  flex-direction: column;
+}
+.yellow {
+  width: 5vw;
+  height: 0.7vw;
+  margin-bottom: 10px;
+  background-color: #e9af05;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
 }
