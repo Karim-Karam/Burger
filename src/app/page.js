@@ -3,6 +3,8 @@ import styles from "./page.module.css";
 import DrawerAppBar from "../../component/drawerAppBar";
 import OrderNowDiv from "../../component/orderNowDiv";
 import SecondSection from "../../component/secondSection";
+import Yellowdiv from "../../component/yellowdiv";
+import Mobilediv from "../../component/mobilediv";
 
 export default function Home() {
   return (
@@ -10,6 +12,8 @@ export default function Home() {
       <DrawerAppBar />
       <OrderNowDiv />
       <SecondSection />
+      <Yellowdiv />
+      <Mobilediv />
     </>
   );
 }

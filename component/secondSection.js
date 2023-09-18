@@ -2,6 +2,8 @@
 import Image from "next/image";
 import React from "react";
 import { motion } from "framer-motion";
+import asset3 from "../images/Asset3.png";
+import Button from "@mui/material/Button";
 
 const SecondSection = () => {
   return (
@@ -27,9 +29,33 @@ const SecondSection = () => {
             className="yellow"
           ></motion.div>
         </div>
+        <motion.div
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          transition={{ delay: 1, duration: 2 }}
+          className="sectionTwo-text-div"
+        >
+          <div className="sectionTwo-textTitle">
+            <span>Section Two ?</span>
+          </div>
+          <ul className="sectionTwo-ul">
+            <li>dddddddddddddddddddd</li>
+            <li>dddddddddddddddddddd</li>
+            <li>dddddddddddddddddddd</li>
+          </ul>
+          <div className="order-btn-div">
+            <Button className="order-btn">Learn more</Button>
+          </div>
+        </motion.div>
       </div>
       <div>
-        <Image />
+        <Image
+          src={asset3}
+          layout="responsive"
+          objectFit="cover"
+          objectPosition="center"
+          alt="Picture of the author"
+        />
       </div>
     </div>
   );
