@@ -2,7 +2,7 @@
 
 body {
   background-color: #100115;
-  font-family: "ADLaM Display", cursive !important;
+  /* font-family: "ADLaM Display", cursive !important; */
 }
 
 @media only screen and (max-width: 750px) {
@@ -162,4 +162,63 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: center;
+}
+.mobile-textDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 45%;
+  padding: 7vw;
+  text-align: center;
+}
+.mobile-title {
+  font-size: 6vw;
+  color: #ffba00;
+  text-transform: uppercase;
+  text-align: center;
+  /* width: 5vw; */
+}
+.mobile-subtitle {
+  font-size: 2vw;
+  color: #ffba00;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.mobile-text {
+  font-size: 1vw;
+  color: #ffff;
+}
+/* justify-content: space-between; */
+.red-div {
+  background-color: #860010;
+  padding: 5vw;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.red-title {
+  font-size: 3.5vw;
+  text-transform: uppercase;
+  color: #e9af05;
+}
+.concept {
+  font-weight: bolder !important;
+}
+.red-text {
+  align-self: center;
+  width: 50%;
+  color: #ffff;
+  font-size: 1vw;
+}
+
+.red-flex {
+  font-size: 1vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-self: center;
+  width: 50%;
+  color: #ffff;
 }
