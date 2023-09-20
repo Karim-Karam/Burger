@@ -6,6 +6,7 @@ import SecondSection from "../../component/secondSection";
 import Yellowdiv from "../../component/yellowdiv";
 import Mobilediv from "../../component/mobilediv";
 import Reddiv from "../../component/reddiv";
+import Knifediv from "../../component/knifediv";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       <Yellowdiv />
       <Mobilediv />
       <Reddiv />
+      <Knifediv />
     </>
   );
 }

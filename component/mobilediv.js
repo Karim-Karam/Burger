@@ -5,9 +5,6 @@ import assetr4 from "../images/Asset4.png";
 import Button from "@mui/material/Button";
 
 const Mobilediv = () => {
-  const imageStyle = {
-    height: "100%",
-  };
   return (
     <div className="mobile-div">
       <div>
@@ -17,7 +14,6 @@ const Mobilediv = () => {
           objectFit="cover"
           objectPosition="center"
           alt="Picture of the author"
-          style={imageStyle}
         />
       </div>
       <div className="mobile-textDiv">
