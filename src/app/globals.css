@@ -244,3 +244,76 @@ body {
   font-size: 4vw;
   text-transform: uppercase;
 }
+.knife-the-div {
+  text-transform: uppercase;
+  font-size: 3vw;
+  line-height: 1;
+  margin-top: 2vw;
+}
+.knife-burger {
+  font-size: 4vw;
+  font-weight: bolder;
+}
+.knife-waiting {
+  font-size: 2.7vw;
+}
+.last-div {
+  display: flex;
+  flex-direction: row;
+  background-color: #010311;
+  width: 100%;
+  position: relative;
+}
+.last-first {
+  width: 15%;
+}
+.last-second {
+  width: 15%;
+  background-color: #860010;
+}
+.last-third {
+  width: 60%;
+  padding: 5vw;
+  display: flex;
+  flex-direction: column;
+}
+.last-gallary {
+  color: #e9af05;
+  text-transform: uppercase;
+  font-size: 2vw;
+  font-weight: bolder;
+}
+.last-empty {
+  height: 30vw;
+}
+.last-pic {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  position: absolute;
+  height: 25vw;
+  top: 11vw;
+}
+.last-text-div {
+  height: 20vw;
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  justify-content: space-evenly;
+}
+.deleciousburger {
+  text-transform: uppercase;
+  font-size: 2vw;
+}
+.last-text {
+  width: 70%;
+  font-size: 1vw;
+}
+.last-find-div {
+  font-size: 1.5vw;
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+}

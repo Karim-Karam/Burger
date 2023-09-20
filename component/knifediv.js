@@ -2,6 +2,7 @@
 import React from "react";
 import Image from "next/image";
 import assetr5 from "../images/Asset5.png";
+import Button from "@mui/material/Button";
 
 const Knifediv = () => {
   return (
@@ -18,6 +19,24 @@ const Knifediv = () => {
       <div className="knife-text">
         <div className="masterclass">
           <span>masterclass</span>
+        </div>
+        <div className="knife-the-div">
+          <div>
+            <span>the recipe for</span>
+          </div>
+          <div>
+            <span>the most delicious</span>
+          </div>
+
+          <div className="knife-burger">
+            <span>burger</span>
+          </div>
+        </div>
+        <div className="knife-waiting">
+          <p>waiting for you!</p>
+        </div>
+        <div>
+          <Button className="order-btn">Learn more</Button>
         </div>
       </div>
     </div>
