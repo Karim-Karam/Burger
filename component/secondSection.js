@@ -36,12 +36,12 @@ const SecondSection = () => {
           className="sectionTwo-text-div"
         >
           <div className="sectionTwo-textTitle">
-            <span>Section Two ?</span>
+            <span>Lorem Ipsum?</span>
           </div>
           <ul className="sectionTwo-ul">
-            <li>dddddddddddddddddddd</li>
-            <li>dddddddddddddddddddd</li>
-            <li>dddddddddddddddddddd</li>
+            <li>   Sed do eiusmod tempor incididunt ut Labore et</li>
+            <li> Dolore magna aliqua</li>
+            <li> Quis ipsum suspendisse ultrices gravida </li>
           </ul>
           <div className="order-btn-div">
             <Button className="order-btn">Learn more</Button>

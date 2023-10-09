@@ -11,10 +11,9 @@ const Yellowdiv = () => {
         transition={{ duration: 1, delay: 2 }}
         className="yellow-element"
       >
-        <span className="yellow-element-title"> div title </span>
+        <span className="yellow-element-title">Lorem Ipsum </span>
         <p>
-          dsfcwecfwevwrv wevwdfvf vwdrwev sf wvwvd ewewevw xcewe ecwewev
-          sdqecwevwev
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
         </p>
       </motion.div>
       <motion.div
@@ -23,10 +22,9 @@ const Yellowdiv = () => {
         transition={{ duration: 1 }}
         className="yellow-element"
       >
-        <span className="yellow-element-title"> div title </span>
+        <span className="yellow-element-title"> Lorem Ipsum</span>
         <p>
-          dsfcwecfwevwrv wevwdfvf vwdrwev sf wvwvd ewewevw xcewe ecwewev
-          sdqecwevwev
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
         </p>
       </motion.div>
       <motion.div
@@ -35,10 +33,9 @@ const Yellowdiv = () => {
         transition={{ duration: 1, delay: 1 }}
         className="yellow-element"
       >
-        <span className="yellow-element-title"> div title </span>
+        <span className="yellow-element-title"> Lorem Ipsum </span>
         <p>
-          dsfcwecfwevwrv wevwdfvf vwdrwev sf wvwvd ewewevw xcewe ecwewev
-          sdqecwevwev
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
         </p>
       </motion.div>
     </div>
