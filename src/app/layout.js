@@ -1,4 +1,4 @@
-// "use client";
+"use client";
 import "./globals.css";
 import { Inter } from "next/font/google";
 import { motion, AnimatePresence } from "framer-motion";
